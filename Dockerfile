@@ -15,5 +15,3 @@ COPY ./ ./
 # ライブラリのインストール
 RUN pip install -r requirements.txt
 
-# プログラムの実行
-# CMD ["python", "src/Run.py"]
