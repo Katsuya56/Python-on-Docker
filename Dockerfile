@@ -13,5 +13,6 @@ WORKDIR /home/Test
 COPY ./ ./
 
 # ライブラリのインストール
+RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
